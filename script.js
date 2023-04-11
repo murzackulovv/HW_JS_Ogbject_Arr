@@ -108,17 +108,17 @@ let myCity = {
   'population': 986700 ,
   'attractions': ["Площадь Ала-Тоо" , "Центральная Мечеть" , "Osh Bazar" , "Киргизский Государственный Музей"]
 }
-console.log("Название города: " + myCity.name);
-console.log("Население города: " + myCity.population);
-console.log("Список достопримечательностей:");
+console.log("Название города: " + myCity.name)
+console.log("Население города: " + myCity.population)
+console.log("Список достопримечательностей:")
 for (let i in myCity.attractions) {
-console.log("- " + myCity.attractions[i]);
+console.log("- " + myCity.attractions[i])
 }
 
 //? ----------------------------------------- Задание 10 с помощью -ChatGPT-
 
 function bookDescription(book) {
-  return book.title + " - " + book.author + ". Издательство: " + book.publisher + ". Количество страниц: " + book.pages + ".";
+  return book.title + " - " + book.author + ". Издательство: " + book.publisher + ". Количество страниц: " + book.pages + "."
   }
   
   let myBook = {
@@ -128,4 +128,4 @@ function bookDescription(book) {
   pages: 1225
   }
   
-  console.log(bookDescription(myBook)); 
+  console.log(bookDescription(myBook))
