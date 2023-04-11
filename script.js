@@ -65,7 +65,7 @@ function calcKeys(obj){
   }
   return calc
 }
-//* ----------------------------------------- Задание 7  -ChatGPT-
+//* ----------------------------------------- Задание 7  с помощью -ChatGPT-
 const grades = {
   'Анна': 85,
   'Боб': 92,
@@ -83,7 +83,7 @@ for (let student in grades) {
 }
 console.log(`Студент с наивысшей оценкой: ${highestGradeStudent}, оценка: ${highestGrade}`)
 
-//* ----------------------------------------- Задание 8  -ChatGPT-
+//* ----------------------------------------- Задание 8  с помощью -ChatGPT-
 let myFavoriteFilms2 = {
   'Форрест Гамп': 1994 ,
   '1 + 1': 2011 ,
@@ -115,7 +115,7 @@ for (let i in myCity.attractions) {
 console.log("- " + myCity.attractions[i]);
 }
 
-//? ----------------------------------------- Задание 10 
+//? ----------------------------------------- Задание 10 с помощью -ChatGPT-
 
 function bookDescription(book) {
   return book.title + " - " + book.author + ". Издательство: " + book.publisher + ". Количество страниц: " + book.pages + ".";
